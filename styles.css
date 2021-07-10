@@ -1,3 +1,57 @@
 * {
-  background: red;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+  font-family: Inter UI, sans-serif;
+}
+
+section {
+  margin-bottom: 2.5em;
+}
+
+header {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+header > p {
+  font-size: 1.1em;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.payments, .metrics {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.payment, .metric {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  header {
+    width: 90%;
+  }
+
+  .wrapper {
+    width: 90%;
+  }
+
+  .payments {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .paypal {
+    margin-bottom: 1em;
+  }
 }
