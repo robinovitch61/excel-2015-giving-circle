@@ -37,6 +37,10 @@ header > p {
   text-align: center;
 }
 
+.metric > strong {
+  font-size: 1.5em;
+}
+
 @media only screen and (max-width: 1200px) {
   header {
     width: 90%;
